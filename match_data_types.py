@@ -18,3 +18,5 @@ elif type(entered_value) == type(str()):
     print("You entered a string:", value)
 else:
     print("You entered an incorrect value.")
+age =23
+
