@@ -12,6 +12,8 @@ while play == "yes":
         case _ if guess == secret_number:
             print("Congratulations, you guessed it!")
 
+            break
+
         case _ if guess > secret_number:
             print("Oops, your guess is a bit high. Try again!")
         case _ if guess < secret_number:
